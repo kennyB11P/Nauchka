@@ -1,0 +1,130 @@
+
+\documentclass[12pt,a4paper]{extreport}
+
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setmainlanguage{russian}
+\setotherlanguage{english}
+\setmainfont{Tinos}
+\newfontfamily\cyrillicfont{Tinos}
+\setsansfont{Tinos}
+\newfontfamily\cyrillicfontsf{Tinos}
+\setmonofont{DejaVu Sans Mono}
+\newfontfamily\cyrillicfonttt{DejaVu Sans Mono}
+\usepackage{indentfirst}
+\usepackage[a4paper,left=30mm,right=15mm,top=20mm,bottom=20mm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{csquotes}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs,longtable,array,tabularx,multirow}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{titlesec}
+\titleformat{\chapter}[hang]{\normalfont\Large\bfseries}{\thechapter}{1em}{}
+\titleformat{name=\chapter,numberless}[hang]{\normalfont\Large\bfseries}{}{0pt}{}
+\titlespacing*{\chapter}{0pt}{0pt}{1.2em}
+\renewcommand{\contentsname}{Содержание}
+\usepackage{subcaption}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\makeatletter
+\AddEnumerateCounter{\asbuk}{\russian@asbuk@alph}{щ}
+\AddEnumerateCounter{\Asbuk}{\russian@asbuk@Alph}{Щ}
+\makeatother
+\usepackage{pdflscape}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\usepackage{placeins}
+
+\hypersetup{
+    unicode=true,
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    urlcolor=blue
+}
+
+\usepackage[
+    backend=biber,
+    style=gost-numeric,
+    sorting=none,
+    language=auto,
+    autolang=other,
+    doi=true,
+    isbn=false,
+    url=true,
+    eprint=true
+]{biblatex}
+
+\addbibresource{references.bib}
+
+\captionsetup{labelsep=period,font=small}
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{0pt}
+
+\lstset{
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    frame=single,
+    columns=fullflexible
+}
+
+\newcommand{\thesistitle}{Глубокие нейросетевые модели в задачах прогнозирования и детекции аномалий в климатических данных}
+\newcommand{\studentname}{Гущин Станислав Алексеевич}
+\newcommand{\advisorname}{Горшенин Андрей Константинович}
+\newcommand{\departmentname}{кафедра математической статистики}
+\newcommand{\cityyear}{Москва, 2026}
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+Московский государственный университет имени М.\,В.~Ломоносова\\
+Факультет вычислительной математики и кибернетики\\
+{\departmentname}
+\end{center}
+
+\vspace{24mm}
+
+\begin{center}
+{\studentname}\\[8mm]
+{\Large\bfseries \thesistitle}\\[10mm]
+{\bfseries ВЫПУСКНАЯ КВАЛИФИКАЦИОННАЯ РАБОТА}
+\end{center}
+
+\vspace{18mm}
+
+\begin{flushright}
+Научный руководитель\\
+д.ф.-м.н., доцент\\
+{\advisorname}
+\end{flushright}
+
+\vfill
+
+\begin{center}
+\cityyear
+\end{center}
+\end{titlepage}
+
+\tableofcontents
+\clearpage
+
+\include{chapters/introduction}
+\include{chapters/chapter1}
+\include{chapters/chapter2}
+\include{chapters/chapter3}
+\include{chapters/chapter4}
+\include{chapters/conclusion}
+
+
+\clearpage
+% Дополнительные источники включены в библиографию для полноты обзора методов прогноза, верификации и нейросетевых архитектур.
+\nocite{*}
+\printbibliography[heading=bibintoc,title={Список использованных источников}]
+
+\end{document}

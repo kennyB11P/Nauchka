@@ -1,0 +1,225 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Детекция аномалий и анализ результатов}{23}{chapter.4}\protected@file@percent }
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Постановка эксперимента для региональной модели}{23}{section.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Динамика обучения}{23}{section.4.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces \xpg@aux {}{russian}\ignorespaces Динамика обучения региональной модели Earthformer-M: изменение функции потерь и валидационной skill-метрики по эпохам.}}{23}{figure.caption.9}\protected@file@percent }
+\newlabel{fig:training-overview}{{4.1}{23}{\texorpdfstring {\xpg@aux {\xpg@current@opts }{\languagename }}{}\ignorespaces Динамика обучения региональной модели Earthformer-M: изменение функции потерь и валидационной skill-метрики по эпохам}{figure.caption.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces \xpg@aux {}{russian}\ignorespaces Динамика якорной метрики по истории нового запуска; значения восстановлены по графику и округлены}}{24}{table.caption.10}\protected@file@percent }
+\newlabel{tab:anchor-rocss}{{4.1}{24}{\texorpdfstring {\xpg@aux {\xpg@current@opts }{\languagename }}{}\ignorespaces Динамика якорной метрики по истории нового запуска; значения восстановлены по графику и округлены}{table.caption.10}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Качество детекции экстремальных осадков на нативной сетке}{24}{section.4.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces \xpg@aux {}{russian}\ignorespaces Зависимость основных вероятностных метрик от горизонта прогноза. На графике собраны ROCSS, ROC-AUC, PR-AUC и Brier score для разных горизонтов прогноза.}}{25}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:metrics-by-lead}{{4.2}{25}{\texorpdfstring {\xpg@aux {\xpg@current@opts }{\languagename }}{}\ignorespaces Зависимость основных вероятностных метрик от горизонта прогноза. На графике собраны ROCSS, ROC-AUC, PR-AUC и Brier score для разных горизонтов прогноза}{figure.caption.11}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces \xpg@aux {}{russian}\ignorespaces Итоговые метрики для региона Europe на сетке \(0.25^\circ \) по новому ноутбуку}}{25}{table.caption.12}\protected@file@percent }
+\newlabel{tab:best-025}{{4.2}{25}{\texorpdfstring {\xpg@aux {\xpg@current@opts }{\languagename }}{}\ignorespaces Итоговые метрики для региона Europe на сетке \(0.25^\circ \) по новому ноутбуку}{table.caption.12}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}Сравнение станционных и сеточных результатов}{26}{section.4.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces \xpg@aux {}{russian}\ignorespaces Сравнение ROCSS по регионам и горизонтам прогноза. Тепловая карта показывает, как меняется качество при увеличении горизонта прогноза.}}{26}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:rocss-heatmap}{{4.3}{26}{\texorpdfstring {\xpg@aux {\xpg@current@opts }{\languagename }}{}\ignorespaces Сравнение ROCSS по регионам и горизонтам прогноза. Тепловая карта показывает, как меняется качество при увеличении горизонта прогноза}{figure.caption.13}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces \xpg@aux {}{russian}\ignorespaces Сравнение Brier score по регионам и горизонтам прогноза. Эта метрика дополняет ROCSS, так как учитывает не только ранжирование событий, но и численное качество вероятностей.}}{27}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:brier-heatmap}{{4.4}{27}{\texorpdfstring {\xpg@aux {\xpg@current@opts }{\languagename }}{}\ignorespaces Сравнение Brier score по регионам и горизонтам прогноза. Эта метрика дополняет ROCSS, так как учитывает не только ранжирование событий, но и численное качество вероятностей}{figure.caption.14}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}Детекция аномалий как самостоятельная задача}{27}{section.4.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces \xpg@aux {}{russian}\ignorespaces Доля наблюдаемых экстремальных событий по горизонту прогноза и региону. График показывает базовую частоту положительного класса, относительно которой следует интерпретировать PR-AUC и метрики таблицы сопряженности.}}{28}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:event-rate-by-lead}{{4.5}{28}{\texorpdfstring {\xpg@aux {\xpg@current@opts }{\languagename }}{}\ignorespaces Доля наблюдаемых экстремальных событий по горизонту прогноза и региону. График показывает базовую частоту положительного класса, относительно которой следует интерпретировать PR-AUC и метрики таблицы сопряженности}{figure.caption.15}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces \xpg@aux {}{russian}\ignorespaces Диаграмма надежности для вероятностной детекции экстремальных осадков. Она сравнивает предсказанные вероятности с фактическими частотами событий.}}{29}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:reliability-europe}{{4.6}{29}{\texorpdfstring {\xpg@aux {\xpg@current@opts }{\languagename }}{}\ignorespaces Диаграмма надежности для вероятностной детекции экстремальных осадков. Она сравнивает предсказанные вероятности с фактическими частотами событий}{figure.caption.16}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces \xpg@aux {}{russian}\ignorespaces ROC- и PR-кривые для Европы. ROC-кривая показывает качество ранжирования, а PR-кривая особенно важна из-за редкости экстремальных событий.}}{29}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:roc-pr-europe}{{4.7}{29}{\texorpdfstring {\xpg@aux {\xpg@current@opts }{\languagename }}{}\ignorespaces ROC- и PR-кривые для Европы. ROC-кривая показывает качество ранжирования, а PR-кривая особенно важна из-за редкости экстремальных событий}{figure.caption.17}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.6}Калибровка, смещение вероятностей и неопределенность}{30}{section.4.6}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces \xpg@aux {}{russian}\ignorespaces Средняя ошибка калибровки и максимальная ошибка калибровки по горизонтам прогноза для Европы.}}{30}{figure.caption.20}\protected@file@percent }
+\newlabel{fig:calibration-error}{{4.10}{30}{\texorpdfstring {\xpg@aux {\xpg@current@opts }{\languagename }}{}\ignorespaces Средняя ошибка калибровки и максимальная ошибка калибровки по горизонтам прогноза для Европы}{figure.caption.20}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces \xpg@aux {}{russian}\ignorespaces Пример пространственного прогноза для случая с высокой предсказанной вероятностью экстремального события на горизонте 72 часа. Панели показывают наблюдаемые осадки, прогноз, локальный порог, вероятность события и маску фактического превышения.}}{31}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:case-max-prob-72}{{4.8}{31}{\texorpdfstring {\xpg@aux {\xpg@current@opts }{\languagename }}{}\ignorespaces Пример пространственного прогноза для случая с высокой предсказанной вероятностью экстремального события на горизонте 72 часа. Панели показывают наблюдаемые осадки, прогноз, локальный порог, вероятность события и маску фактического превышения}{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces \xpg@aux {}{russian}\ignorespaces Пример случая с риском пропуска экстремального события на горизонте 72 часа. Такой пример полезен для анализа не только успешных прогнозов, но и типичных ограничений модели.}}{31}{figure.caption.19}\protected@file@percent }
+\newlabel{fig:case-miss-risk-72}{{4.9}{31}{\texorpdfstring {\xpg@aux {\xpg@current@opts }{\languagename }}{}\ignorespaces Пример случая с риском пропуска экстремального события на горизонте 72 часа. Такой пример полезен для анализа не только успешных прогнозов, но и типичных ограничений модели}{figure.caption.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces \xpg@aux {}{russian}\ignorespaces Среднее смещение вероятностного прогноза: разность между средней предсказанной вероятностью и фактической частотой события.}}{32}{figure.caption.21}\protected@file@percent }
+\newlabel{fig:probability-bias}{{4.11}{32}{\texorpdfstring {\xpg@aux {\xpg@current@opts }{\languagename }}{}\ignorespaces Среднее смещение вероятностного прогноза: разность между средней предсказанной вероятностью и фактической частотой события}{figure.caption.21}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces \xpg@aux {}{russian}\ignorespaces Калибровочные показатели для региона Europe на сетке \(0.25^\circ \)}}{32}{table.caption.22}\protected@file@percent }
+\newlabel{tab:calibration-025}{{4.3}{32}{\texorpdfstring {\xpg@aux {\xpg@current@opts }{\languagename }}{}\ignorespaces Калибровочные показатели для региона Europe на сетке \(0.25^\circ \)}{table.caption.22}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces \xpg@aux {}{russian}\ignorespaces Связь ансамблевого разброса и ошибки прогноза по горизонту прогноза. График используется как простая проверка того, несет ли ансамбль информацию о неопределенности.}}{33}{figure.caption.23}\protected@file@percent }
+\newlabel{fig:spread-error-by-lead}{{4.12}{33}{\texorpdfstring {\xpg@aux {\xpg@current@opts }{\languagename }}{}\ignorespaces Связь ансамблевого разброса и ошибки прогноза по горизонту прогноза. График используется как простая проверка того, несет ли ансамбль информацию о неопределенности}{figure.caption.23}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.13}{\ignorespaces \xpg@aux {}{russian}\ignorespaces Совместное распределение ансамблевого разброса и ошибки для горизонта 120 часов. Такой вид графика позволяет увидеть не только средний тренд, но и плотность отдельных случаев.}}{33}{figure.caption.24}\protected@file@percent }
+\newlabel{fig:spread-error-hexbin}{{4.13}{33}{\texorpdfstring {\xpg@aux {\xpg@current@opts }{\languagename }}{}\ignorespaces Совместное распределение ансамблевого разброса и ошибки для горизонта 120 часов. Такой вид графика позволяет увидеть не только средний тренд, но и плотность отдельных случаев}{figure.caption.24}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.4}{\ignorespaces \xpg@aux {}{russian}\ignorespaces Ансамблевый разброс и ошибки прогноза осадков по выбранным горизонтам}}{33}{table.caption.25}\protected@file@percent }
+\newlabel{tab:spread-error-025}{{4.4}{33}{\texorpdfstring {\xpg@aux {\xpg@current@opts }{\languagename }}{}\ignorespaces Ансамблевый разброс и ошибки прогноза осадков по выбранным горизонтам}{table.caption.25}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.15}{\ignorespaces \xpg@aux {}{russian}\ignorespaces Месячная диагностика смещения частоты экстремальных событий. Рисунок показывает, что ошибки модели имеют не только пространственную, но и сезонную структуру.}}{34}{figure.caption.27}\protected@file@percent }
+\newlabel{fig:monthly-event-rate-bias}{{4.15}{34}{\texorpdfstring {\xpg@aux {\xpg@current@opts }{\languagename }}{}\ignorespaces Месячная диагностика смещения частоты экстремальных событий. Рисунок показывает, что ошибки модели имеют не только пространственную, но и сезонную структуру}{figure.caption.27}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.7}Выводы по экспериментальной части}{34}{section.4.7}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4.14}{\ignorespaces \xpg@aux {}{russian}\ignorespaces Годовые средние карты диагностики на горизонте 120 часов: аномалия, ошибка, средняя вероятность события, частота события, false alarm rate и miss rate.}}{36}{figure.caption.26}\protected@file@percent }
+\newlabel{fig:year-mean-anomaly-maps}{{4.14}{36}{\texorpdfstring {\xpg@aux {\xpg@current@opts }{\languagename }}{}\ignorespaces Годовые средние карты диагностики на горизонте 120 часов: аномалия, ошибка, средняя вероятность события, частота события, false alarm rate и miss rate}{figure.caption.26}{}}
+\@setckpt{chapters/chapter4}{
+\setcounter{page}{37}
+\setcounter{equation}{0}
+\setcounter{enumi}{5}
+\setcounter{enumii}{0}
+\setcounter{enumiii}{0}
+\setcounter{enumiv}{0}
+\setcounter{footnote}{0}
+\setcounter{mpfootnote}{0}
+\setcounter{part}{0}
+\setcounter{chapter}{4}
+\setcounter{section}{7}
+\setcounter{subsection}{0}
+\setcounter{subsubsection}{0}
+\setcounter{paragraph}{0}
+\setcounter{subparagraph}{0}
+\setcounter{figure}{15}
+\setcounter{table}{4}
+\setcounter{parentequation}{0}
+\setcounter{LT@tables}{0}
+\setcounter{LT@chunks}{0}
+\setcounter{float@type}{8}
+\setcounter{caption@flags}{2}
+\setcounter{continuedfloat}{0}
+\setcounter{subfigure}{0}
+\setcounter{subtable}{0}
+\setcounter{lstnumber}{1}
+\setcounter{section@level}{0}
+\setcounter{Item}{13}
+\setcounter{Hfootnote}{0}
+\setcounter{Hy@AnnotLevel}{0}
+\setcounter{bookmark@seq@number}{0}
+\setcounter{tabx@nest}{0}
+\setcounter{listtotal}{0}
+\setcounter{listcount}{0}
+\setcounter{liststart}{0}
+\setcounter{liststop}{0}
+\setcounter{citecount}{0}
+\setcounter{citetotal}{0}
+\setcounter{multicitecount}{0}
+\setcounter{multicitetotal}{0}
+\setcounter{instcount}{14}
+\setcounter{maxnames}{3}
+\setcounter{minnames}{1}
+\setcounter{maxitems}{3}
+\setcounter{minitems}{1}
+\setcounter{citecounter}{0}
+\setcounter{maxcitecounter}{0}
+\setcounter{savedcitecounter}{0}
+\setcounter{uniquelist}{0}
+\setcounter{uniquename}{0}
+\setcounter{refsection}{0}
+\setcounter{refsegment}{0}
+\setcounter{maxextratitle}{0}
+\setcounter{maxextratitleyear}{0}
+\setcounter{maxextraname}{0}
+\setcounter{maxextradate}{0}
+\setcounter{maxextraalpha}{0}
+\setcounter{abbrvpenalty}{50}
+\setcounter{highnamepenalty}{50}
+\setcounter{lownamepenalty}{25}
+\setcounter{maxparens}{3}
+\setcounter{parenlevel}{0}
+\setcounter{blx@maxsection}{0}
+\setcounter{mincomprange}{10}
+\setcounter{maxcomprange}{100000}
+\setcounter{mincompwidth}{1}
+\setcounter{afterword}{0}
+\setcounter{savedafterword}{0}
+\setcounter{annotator}{0}
+\setcounter{savedannotator}{0}
+\setcounter{author}{0}
+\setcounter{savedauthor}{0}
+\setcounter{bookauthor}{0}
+\setcounter{savedbookauthor}{0}
+\setcounter{commentator}{0}
+\setcounter{savedcommentator}{0}
+\setcounter{editor}{0}
+\setcounter{savededitor}{0}
+\setcounter{editora}{0}
+\setcounter{savededitora}{0}
+\setcounter{editorb}{0}
+\setcounter{savededitorb}{0}
+\setcounter{editorc}{0}
+\setcounter{savededitorc}{0}
+\setcounter{foreword}{0}
+\setcounter{savedforeword}{0}
+\setcounter{holder}{0}
+\setcounter{savedholder}{0}
+\setcounter{introduction}{0}
+\setcounter{savedintroduction}{0}
+\setcounter{namea}{0}
+\setcounter{savednamea}{0}
+\setcounter{nameb}{0}
+\setcounter{savednameb}{0}
+\setcounter{namec}{0}
+\setcounter{savednamec}{0}
+\setcounter{translator}{0}
+\setcounter{savedtranslator}{0}
+\setcounter{shortauthor}{0}
+\setcounter{savedshortauthor}{0}
+\setcounter{shorteditor}{0}
+\setcounter{savedshorteditor}{0}
+\setcounter{booktranslator}{0}
+\setcounter{savedbooktranslator}{0}
+\setcounter{bookcommentator}{0}
+\setcounter{savedbookcommentator}{0}
+\setcounter{bookannotator}{0}
+\setcounter{savedbookannotator}{0}
+\setcounter{bookintroduction}{0}
+\setcounter{savedbookintroduction}{0}
+\setcounter{bookforeword}{0}
+\setcounter{savedbookforeword}{0}
+\setcounter{bookafterword}{0}
+\setcounter{savedbookafterword}{0}
+\setcounter{labelname}{0}
+\setcounter{savedlabelname}{0}
+\setcounter{institution}{0}
+\setcounter{savedinstitution}{0}
+\setcounter{lista}{0}
+\setcounter{savedlista}{0}
+\setcounter{listb}{0}
+\setcounter{savedlistb}{0}
+\setcounter{listc}{0}
+\setcounter{savedlistc}{0}
+\setcounter{listd}{0}
+\setcounter{savedlistd}{0}
+\setcounter{liste}{0}
+\setcounter{savedliste}{0}
+\setcounter{listf}{0}
+\setcounter{savedlistf}{0}
+\setcounter{location}{0}
+\setcounter{savedlocation}{0}
+\setcounter{organization}{0}
+\setcounter{savedorganization}{0}
+\setcounter{origlocation}{0}
+\setcounter{savedoriglocation}{0}
+\setcounter{origpublisher}{0}
+\setcounter{savedorigpublisher}{0}
+\setcounter{publisher}{0}
+\setcounter{savedpublisher}{0}
+\setcounter{language}{0}
+\setcounter{savedlanguage}{0}
+\setcounter{origlanguage}{0}
+\setcounter{savedoriglanguage}{0}
+\setcounter{bookoriglanguage}{0}
+\setcounter{savedbookoriglanguage}{0}
+\setcounter{specdata}{0}
+\setcounter{savedspecdata}{0}
+\setcounter{credits}{0}
+\setcounter{savedcredits}{0}
+\setcounter{bookcredits}{0}
+\setcounter{savedbookcredits}{0}
+\setcounter{editioncredits}{0}
+\setcounter{savededitioncredits}{0}
+\setcounter{pageref}{0}
+\setcounter{savedpageref}{0}
+\setcounter{textcitecount}{0}
+\setcounter{textcitetotal}{0}
+\setcounter{textcitemaxnames}{0}
+\setcounter{biburlbigbreakpenalty}{100}
+\setcounter{biburlbreakpenalty}{200}
+\setcounter{biburlnumpenalty}{0}
+\setcounter{biburlucpenalty}{0}
+\setcounter{biburllcpenalty}{0}
+\setcounter{smartand}{1}
+\setcounter{blx@gost@pointer}{0}
+\setcounter{bbx:relatedcount}{0}
+\setcounter{bbx:relatedtotal}{0}
+\setcounter{cbx@tempcnta}{0}
+\setcounter{cbx@tempcntb}{4}
+\setcounter{cbx@tempcntc}{0}
+\setcounter{cbx@tempcntd}{-1}
+\setcounter{lstlisting}{0}
+}
